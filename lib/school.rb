@@ -18,12 +18,10 @@ class School
   
   def sort()
   
-    @roster.each do |k,v|
-      k.sort
-      
-    
+    @roster.each_value do |v|
+      v.sort!
      end    
-     @roster[:grade].sort
+     
 
   end
   
