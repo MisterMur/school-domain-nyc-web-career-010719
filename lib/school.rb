@@ -17,7 +17,7 @@ class School
   end
   
   def sort()
-    h = Hash.new
+  
     @roster.each do |k,v|
       k.sort
       
