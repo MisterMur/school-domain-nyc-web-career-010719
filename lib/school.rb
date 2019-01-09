@@ -5,6 +5,6 @@ class School
     @roster = Hash.new
   end
   def roster
-    
+    @roster
   end
 end
