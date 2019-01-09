@@ -21,7 +21,8 @@ class School
       k.sort
       
     
-     end      
+     end    
+     @roster[:grade].sort
 
   end
   
